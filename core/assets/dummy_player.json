@@ -1,0 +1,47 @@
+{
+class: com.brawl.game.json.PlayerSON,
+techniqueList: [
+	{
+		class: com.brawl.game.json.TechniqueSON,
+	
+		frameList: [
+			{
+				class: com.brawl.game.json.FrameSON,	
+				hurtBoxList: [
+					{
+						class: com.brawl.game.json.HurtBox,
+						x : 0,
+						y : 0,
+						width: 64,
+						height: 64,
+					}
+				],
+
+				hitBoxList: [
+					{
+						class: com.brawl.game.json.HitBox,
+						x : 0,
+						y : 0,
+						width: 64,
+						height: 64,
+					}
+				],
+
+				colBoxList: [
+					{
+						class: com.brawl.game.json.CollisionBox,
+						x : 0,
+						y : 0,
+						width: 64,
+						height: 64,
+					}
+				]	
+
+			}
+		]			
+	
+	}
+],
+name: Dummy,
+portraitPath: null
+}
